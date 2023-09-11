@@ -1,10 +1,10 @@
 import React from "react";
-import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 
 const LandingPage = () => {
   return (
     <>
-      <Header />
+      <Navigation />
     </>
   );
 };
