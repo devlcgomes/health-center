@@ -8,23 +8,23 @@ import { BiChevronRight } from "react-icons/bi";
 const navigationMenu = [
   {
     href: "#",
-    label: "Home",
+    label: "Página Inicial",
   },
   {
     href: "#",
-    label: "How we work",
+    label: "Sobre Nós",
   },
   {
     href: "#",
-    label: "Our Mission",
+    label: "Soluções",
   },
   {
     href: "#",
-    label: "About",
+    label: "Serviços",
   },
   {
     href: "#",
-    label: "Contact",
+    label: "Contato",
   },
 ];
 
@@ -63,12 +63,7 @@ export default function Navigation() {
         <div className="container px-4 mx-auto ">
           <div className="flex justify-between items-center ">
             <Link href="/">
-              <img
-                width={157}
-                height={30}
-                src="https://w7.pngwing.com/pngs/523/198/png-transparent-google-logo-google-search-google-play-google-text-logo-number.png"
-                alt=""
-              />
+              <img width={40} height={30} src="/logoh2l.png" alt="" />
             </Link>
             {/** Menu */}
             <div className="hidden lg:block text-center">
